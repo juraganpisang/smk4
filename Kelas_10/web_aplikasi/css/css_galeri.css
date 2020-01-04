@@ -1,0 +1,168 @@
+	@import url('css/reset.css');
+	
+	html,body{
+							background : url(../images/bg.png);
+							font-family : Calibri;
+							margin : auto;
+							height : 100%;
+							width : 100%;
+							}
+	a{
+			text-decoration : none;
+			color : #333;
+			}
+	nav{
+				background : #B16B67;
+				background-attachment: fixed;
+				z-index : 1030;
+				position : relative;
+				padding : 1px;
+			}
+	#simple{
+						list-style-type : none;
+						display : block;
+					}
+	#simple li{
+							display : inline-block;
+							}
+	#simple li a{
+								padding : 10px;
+								color : #fff;
+							}
+	#simple li a:hover{
+												background : #262A29;
+												border-radius : 5px;
+											}
+	section{
+		width: 900px;
+		max-width: 900px;
+		margin: 30px auto;
+	}
+		.section{
+			display: table;
+			width: 100%;
+		}
+		.section .content{
+									display: table-row;
+									width: 100%;
+									}
+		.section .box{
+								display: table-cell;
+								border: 5px solid transparent;
+								padding: 10px;
+								width:50px;
+							}
+		.section .box:hover{
+											background: #EFEFEF;
+											transition : 0.6s;
+											border: 5px solid #C09A7F;
+											}
+		.section .box h3{
+										padding: 10px;
+										font-size: 18px;
+										font-weight: bold;
+									}
+		.section .box p{
+									padding: 10px;
+									line-height: 1.5em;
+								}
+		.section .box img{
+										width:100%;
+										max-width: 100%;
+										height: auto;
+										left : 627px;
+										border-radius: 10px;
+										}
+		.section .box img:hover{
+														transform : scale(2.5);
+														-webkit-transform : scale(2.5);
+														-moz-transform : scale(2.5);
+														transition-duration : 1.5s;
+														transition-delay : 0,0,0,1s;
+														}
+		.section .box video{
+												width : 440px;
+												display : block;
+												}
+	footer{
+		border-top: 3px solid #ddd;
+		padding: 30px auto;
+		display: table;
+		width: 900px;
+		max-width: 900px;
+		margin: 40px auto;
+		font-size: 12px;
+	}
+		footer a{
+			text-decoration: none;
+			color: #666;
+			padding: 2px;
+			border-bottom: 1px solid #ddd;
+		}
+			footer a:hover{
+				background: #ddd;
+			}
+
+		footer .content{
+			width: 100%;
+			display: table-row;
+			vertical-align: center;
+		}
+			footer .box{
+				display: table-cell;
+				padding: 10px;
+				width: 50%;
+			}
+
+				footer .box:nth-child(2){
+					text-align: right;
+				}
+
+
+	@media (max-width: 860px){
+
+														section,
+														.gallery,
+														.testimonial,
+														footer{
+															width: 90%;
+														}
+														.gallery{
+															padding: 0;
+														}
+														.section .box:nth-child(1){
+															border-radius: 0;
+														}
+														.section .box video{
+																							width : 300px
+																								}
+														footer{
+															text-align: center;
+														}
+														footer .box{
+															display: block;
+															width: 90%;
+														}
+		@media (max-width: 640px){
+															.gallery .box{
+																display: block;
+															}
+
+															.section .box{
+																margin:auto;
+																display: block;
+																width: 80%;
+																padding: 5%;
+																border-radius: 0;
+															}
+															.section .box video{
+																							width : 230px
+																								}
+															footer .box:nth-child(2){
+																text-align: center;
+																width: 90%;
+															}
+															footer .box strong{
+																display: block;
+															}
+													}

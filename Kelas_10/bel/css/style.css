@@ -1,0 +1,99 @@
+
+body {
+	 background-color: #FFC;
+	 font-family: "calibri"
+}
+
+#wrapper {
+	 width: 850px;
+	 margin: 15px auto;
+	 height: auto;
+	 padding: 20px;
+	 background-color: #FFF;
+	 box-shadow: 0px 0px 20px #F60;
+	 -moz-box-shadow:0px 0px 20px #F60;
+	 -webkit-box-shadow: 0px 0px 20px #F60;
+	 border-radius: 17px;
+	 -moz-border-radius: 17px;
+	 -webkit-border-radius: 17px;
+}
+
+#header {
+	 width: 850px;
+	 height: 110px;
+	 border: 1px solid #CCC;
+	 margin-bottom: 40px;
+	 text-align: center;
+}
+
+#menu {
+	 width: 850px;
+	 height: 27px;
+	 margin-bottom: 7px;
+	 border: 1px solid #FFF;
+	 background-color: #CCC;
+	 font-size:17x;
+	 border-radius: 5px;
+	 -moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
+}
+#menu ul{
+	 margin: 4px 4px 4px 7px;
+	 padding: 0px;
+	 list-style: none;
+}
+#menu li{
+	 margin: 10px;
+	 padding: 0px;
+	 display: inline;
+}
+#menu a{
+	 padding: 6px 6px 6px 6px;
+	 text-decoration: none;
+}
+#menu a:hover{
+	 padding: 5px 5px 2px 5px;
+	 text-decoration: none;
+	 color: #FFF;
+	 background: #FF9000;
+}
+
+#sidebar {
+	 float: right;
+	 width: 300px;
+	 height: 290px;
+	 border: 1px solid #CCC;
+	 margin-bottom: 7px;
+	 text-align: center;
+}
+
+#content {
+	 width: 538px;
+	 height: 690px;
+	 margin-bottom: 2px;
+	 border: 1px solid #CCC;
+	 margin-bottom: 7px;
+}
+#content img{
+	 border-radius: 17px;
+	 -moz-border-radius: 17px;
+	 -webkit-border-radius: 17px;
+	 box-shadow: 0px 0px 10px #CCC;
+	 -moz-box-shadow:0px 0px 10px #CCC;
+	 -webkit-box-shadow: 0px 0px 10px #CCC;
+	 padding: 2px; margin-right: 10px;
+	 float:left;
+}
+
+#footer {
+	 width: 850px;
+	 height: 20px;
+	 padding-top: 0px;
+	 border: 1px solid #CCC;
+	 text-align: center;
+	 background-color: #CCC;
+	 clear: both;
+	 border-radius: 3px;
+	 -moz-border-radius: 3px;
+	 -webkit-border-radius: 3px;
+}

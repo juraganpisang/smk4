@@ -1,0 +1,132 @@
+			body{
+				padding:0px;
+			}
+			header {
+				height:140px;
+				background-color:#02AB68;
+				margin: -16px -28px 0px -20px;
+				width: auto;
+				color: white;
+				text-decoration: none;
+				
+			}
+			
+			h1{
+				padding-left:10px;
+				padding-right:400px;
+				font-size:40px;
+				display:inline-block;
+				font-family:"twilight";
+				
+			}
+			nav{
+				height:50px;
+				background-color:#2F333E;
+				margin: -16px -28px 0px -20px;
+				width: auto;
+				color: white;
+				padding-left:150px;
+				padding-right:20px;
+			}
+		
+			li{
+				display:inline-block;
+			}
+			a{
+				text-decoration:none;
+				color:white;
+				display:inline-block;
+				padding:15px 20px 10px 20px;
+			}
+			a:hover{
+				
+				display:inline-block;
+				background-color:white;
+				padding:15px 20px 10px 20px;
+				color:#2F333E;
+			}
+			a:active{
+				
+				display:inline-block;
+				background-color:#2F333E;
+				padding:15px 20px 10px 20px;
+				color:white;
+			}
+			
+			#akun {
+				padding-top:20px;
+			}
+			
+			#logo{
+				padding-left:50px;
+				width:83px;
+				height:75px;
+			}
+			
+			#shadow1{
+				margin-left:-30px;
+				width:1400px;
+				height:100px;
+			}
+			
+			#top{
+				padding-left:270px;
+			}
+			
+			#ink {
+				margin-top:-10px;
+				text-align:center;
+				padding-bottom:0px;
+				padding-top:0px;
+				font: bold 14px Arial, Helvetica;
+			}
+			
+			#inka {
+				
+				text-align:center;
+				padding-bottom:0px;
+				padding-top:0px;
+				font: bold 14px Arial, Helvetica;
+			}
+			
+			footer {
+				height:70px;
+				background-color:#2F333E;
+				margin: 130px -28px 0px -20px;
+				width: auto;
+				color: white;
+				text-decoration: none;
+			}
+			
+			#copy {
+				font-size :14px;
+				font-family:calibry;
+				padding-left:150px;
+				padding-top:10px;
+				display:inline-block;
+				
+			}
+			 
+				 
+			@font-face {
+			   font-family: "Font Digital";
+			   src: url('twilight.TTF');
+			}
+			
+			#lock {
+				margin-left:550px;
+				width:-25%;
+			}
+			
+			
+			#ting {
+				display:inline-block;
+				background-color:white;
+				padding:15px 20px 10px 20px;
+				color:#2F333E;
+			}
+			hr {
+				width:500px;
+			}
+			
+			

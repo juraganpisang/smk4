@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<link rel="stylesheet" href="../css/style.css"/>
+	<script type="text/javascript"src="../js/kalkulator.js"></script>
+	<link rel="stylesheet" href="../css/css_kalkulator.css"/>
+</head>  
+<body>  
+	<form name = "kalkulator">
+			<nav>
+				<ul id="simple">
+					<li><a href="../index.html">Beranda</a></li>
+					<li><a href="kalkulator.html">Kalkulator</a></li>
+					<li><a href="bangun.html">Rumus Bangun</a></li>
+					<li><a href="pemesanan.html">Form Pemesanan</a></li>
+				</ul>
+			</nav>
+			<center>
+			<section>
+				<fieldset>
+				<legend>Kalkulator</legend>
+				<p><label>Nilai 1 : </label><input type = "text" name = "nil1"/></p>
+				<p><label>Nilai 2 : </label><input type = "text" name = "nil2"/></p>
+				<p>
+					<input type = "button" value = "+" onClick = "tambah()"/>
+					<input type = "button" value = "-" onClick = "kurang()"/>
+					<input type = "button" value = "/" onClick = "bagi()"/>
+					<input type = "button" value = "X" onClick = "kali()"/>
+					<input type = "button" value = "Mod" onClick = "mod()"/>
+					<input type = "button" value = "C" onClick = "resetForm()"/>
+				</p>
+				<label>Hasil  : &nbsp;</label><input type = "text" name = "hasil" value="" readonly>
+				</fieldset>
+			</section>
+			</center>
+			<footer>
+				<div class="content">
+					<div class="box">&copy; <a href="index.html">myRado</a> | All Right Reserved</div>
+					<div class="box"><strong>Berbagi di: </strong><a href="#">Twitter</a> / <a href="#">Facebook</a> / <a href="#">Path</a> / <a href="#">Instagram</a><br><br><strong>Telepon:</strong> +6231-XXX-XXX; <strong>Email:</strong> myrado@gmail.com</div>
+				</div>
+			</footer>
+	</form>
+</body>
+</html> 

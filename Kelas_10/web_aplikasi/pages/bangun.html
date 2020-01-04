@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<link rel="stylesheet" href="../css/style.css"/>
+	<script type="text/javascript" src="../js/bangun.js"></script>
+	<link rel="stylesheet" href="../css/css_bangun.css"/>
+</head>
+<body>
+	<form name="bangun">
+			<nav>
+				<ul id="simple">
+					<li><a href="../index.html">Beranda</a></li>
+					<li><a href="kalkulator.html">Kalkulator</a></li>
+					<li><a href="bangun.html">Rumus Bangun</a></li>
+					<li><a href="pemesanan.html">Form Pemesanan</a></li>
+				</ul>
+			</nav>
+			<center>
+			<section>
+			<fieldset>
+			<legend>Rumus tabung</legend>
+				<label>Volume Tabung = 3.14 * r * r * t</label>
+				<p>
+					<label>Volume Tabung = </label><input type="text" name="nil1" value="3.14" readonly></input>
+					x <input type="text" name="nil2"></input>
+					x <input type="text" name="nil3"></input>
+					= <input type="text" name="hasil" value="" readonly></input>
+				</p>
+				<p><input type="button" value="Hitung" onClick="tabung()"></input>
+				<input type="button" value="Hapus" onClick="resetForm()"></input></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+			<legend>Rumus Piramida</legend>
+				<label>Volume Piramida = (p * l) * t / 3</label>
+				<p>
+					<label>Volume Piramida = ( </label><input type="text" name="nilai1"></input>
+					x <input type="text" name="nilai2"></input>
+					) x <input type="text" name="nilai3"></input>
+					/ 3 = <input type="text" name="Hasil" value="" readonly></input>
+				</p>
+				<p><input type="button" value="Hitung" onClick="piramida()"></input>
+				<input type="button" value="Hapus" onClick="resetForm()"></input></p>
+			</fieldset>
+			<br/>
+			<br/>
+			<fieldset>
+			<legend>Rumus Balok</legend>
+				<label>Volume Balok = p * l * t </label>
+				<p>
+					<label>Volume Balok = </label><input type="text" name="nila1"></input>
+					x <input type="text" name="nila2"></input>
+					x <input type="text" name="nila3"></input>
+					= <input type="text" name="sama" value="" readonly></input>
+				</p>
+				<p><input type="button" value="Hitung" onClick="balok()"></input>
+				<input type="button" value="Hapus" onClick="resetForm()"></input></p>
+			</fieldset>
+			</section>
+			</center>
+			<footer>
+				<div class="content">
+					<div class="box">&copy; <a href="index.html">myRado</a> | All Right Reserved</div>
+					<div class="box"><strong>Berbagi di: </strong><a href="#">Twitter</a> / <a href="#">Facebook</a> / <a href="#">Path</a> / <a href="#">Instagram</a><br><br><strong>Telepon:</strong> +6231-XXX-XXX; <strong>Email:</strong> myrado@gmail.com</div>
+				</div>
+			</footer>
+	</form>
+</body>
+</html>

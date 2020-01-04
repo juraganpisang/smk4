@@ -1,0 +1,103 @@
+body {
+	margin : 50px 50px;
+	background: lightblue;
+}
+.yuu {
+	height : 320px;
+	width : 520px;
+	padding : 40px;
+	margin : auto;
+	border-radius : 20px;
+	background-color : white;
+}
+.oi {
+	width : 200px;
+	height : 50px;
+	text-align : center;
+	border-radius : 10px;
+	background-color : #F9FFD7;
+	font-size : 14px;
+	font-family : arialblack;
+}
+.oi:hover {
+	background-color : #F5FFBF;
+}
+.ui {
+	font-family : sans-serif;
+	font-size : 14px;
+}
+.kirim {
+	background-color : #F9FFD7;
+	font-size : 14px;
+	width : 200px;
+	height : 30px;
+	border-radius : 3px;
+	font-family : arial;
+}
+.kirim:hover {
+	background-color : #8EFF17;
+	color : white;
+	font-size : 18px;
+}
+.yoo {
+	height : 480px;
+	width : 500px;
+	padding : 40px;
+	margin : auto;
+	border-radius : 20px;
+	background-color : white;
+}
+.io {
+	width : 290px;
+	height : 40px;
+	text-align : center;
+	border-radius : 10px;
+	background-color : #F9FFD7;
+	font-size : 14px;
+	font-family : arialblack;
+}
+.io:hover {
+	background-color : #F5FFBF;
+}
+
+.gagal {
+	background-color : #F9FFD7;
+	font-size : 14px;
+	width : 200px;
+	height : 30px;
+	border-radius : 3px;
+	font-family : arial;
+}
+.gagal:hover {
+	background-color : red;
+	color : white;
+	font-size : 18px;
+}
+.y {
+	margin-left : -5px;
+}
+.x {
+	margin-left : 250px;
+}
+.yuo {
+	height : 90px;
+	width : 300px;
+	padding : 30px;
+	margin : auto;
+	border-radius : 10px;
+	background-color : white;
+}
+fieldset {
+	margin : auto;
+	text-align : center;
+	background-color : #F9FFD7;
+	border-radius : 20px;
+}
+.yt {
+	height : 480px;
+	width : 520px;
+	padding : 40px;
+	margin : auto;
+	border-radius : 20px;
+	background-color : white;
+}

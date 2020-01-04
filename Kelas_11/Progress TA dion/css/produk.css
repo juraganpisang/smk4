@@ -1,0 +1,100 @@
+/*center content--------------------------*/
+	@media (min-width:768px){
+	.center_content {
+		width:900px;
+	}
+}
+	.center_content{
+	width:880px;
+	float:left;
+	padding:5px 15px;
+	margin:5px 55px;
+	margin-top: 50px;
+	margin-left: -27px;
+	}
+	.center_title_bar{
+	width:880px;
+	height:33px;
+	border-radius:5px;
+	padding:0 0 0 40px;
+	margin:0 0 0 12px;
+	_margin:0 0 0 6px;
+	font-size:12px;
+	background-color:rgba(96, 181, 214, 0.86);
+	font-weight:bold;
+	}
+	.p {
+	padding:5px;
+	font-size:20px;
+	color:white;
+	}
+	.jarak{
+	margin-left:10px;
+	padding-top:20px;
+	}
+/*------untuk isi-----*/
+	
+	.holder_gallery {
+	width:225px;
+	float:left;
+	margin:20px;
+	padding:0;
+	border:1px;
+	background-color:#ffffff;
+	border-radius:5px;
+	}		
+	.
+	.holder_gallery a.photo_hover {margin:20px}
+	.holder_gallery h3 { clear:left}
+		
+	.holder_gallery a.name{
+		font-size:12px;
+		text-align:left;
+		position:relative;
+		margin-top:15px;
+		display:block;
+		clear:left;
+		line-height:15px;
+	}
+
+	.holder_gallery a.name1{
+		font-size:12px;
+		position:relative;
+		display:inline;
+		text-align:left;
+		top:20px;
+		left:0;
+	}
+
+	.holder_gallery a.description{
+		font-size:12px;
+		float:left;
+		position:relative;
+		margin-right:5px;
+		padding-top:7px;
+		color:gray;
+		width:300px;
+		display:inline;
+	}
+	 a.photo_hover2{
+	float: left;
+	margin:5px;
+	padding: 8px;
+	border-radius: .5em;
+}
+	.jarak_hasil {
+	margin:5px;
+	}
+	.cart-right {
+	float: right;
+	background: url(../images/cart2.png)2px 0px #7db122;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-o-border-radius: 100px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	cursor:pointer;
+	margin:3px;
+	}

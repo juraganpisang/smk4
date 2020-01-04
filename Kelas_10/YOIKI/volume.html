@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Akhir</title>
+	<link href="css/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" id="main">
+  <tr>
+    <td colspan="2" id="top"><a class="aa">WEB ARMI RODA</a></td>
+  </tr>
+  <tr>
+    <td colspan="2" id="top-2" class="txt-top-2"><div id="top-2-container"><a href="index.html">Home</a>  &nbsp;|&nbsp;  <a href="fitur.html">Fitur Web</a>  &nbsp;|&nbsp;  <a href="profil.html">Profil</a>  &nbsp;|&nbsp;  <a href="kontak.html">Kontak</a></div></td>
+  </tr>
+  <tr>
+    <td colspan="2" id="header">
+		<div id="header-container">
+		<img src="images/header.jpg" width="538x" height="280px" />		</div>
+		<div id="nav">
+			<div class="nav-item-1"><a href="kalkulator.html">KALKULATOR</a></div>
+			<div class="nav-item-1"><a href="galeri.html">GALERI</a></div>
+			<div class="nav-item-1"><a href="volume.html">VOLUME BANGUN RUANG</a></div>
+			<div class="nav-item-1"><a href="kasir.html">APLIKASI KASIR</a></div>
+		<div id="nav-filler-bottom"></div>
+		</div>	</td>
+  </tr>
+  <tr>
+    <td id="left-column">
+		<div id="left-column-container">
+			<script type="text/javaScript">
+			function iu()
+			{
+				a=eval (volume.satu1.value);
+				b=eval (volume.dua1.value);
+				c=eval (volume.tiga1.value);
+				d=a*b*c;
+				volume.hasil.value=d;
+			}
+			function iq()
+			{
+				e=eval (volume.satu.value);
+				f=eval (volume.dua.value);
+				g=eval (volume.tiga.value);
+				h=e*f*g;
+				volume.hasil1.value=h;
+			}
+			function ik()
+			{
+				i=eval (volume.satu2.value);
+				j=eval (volume.dua2.value);
+				k=eval (volume.tiga2.value);
+				l=eval (volume.empat.value);
+				m=i*j*k*l;
+				volume.hasil2.value=m;
+			}
+			</script>
+			<form name="volume">
+				<center>
+				<h2>PENGHITUNG VOLUME WEB</h2>
+				<h3>Volume Balok = p x l x t</h3>
+				&nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" name="satu1" placeholder="panjang">
+				<input type="text" name="dua1" placeholder="lebar">
+				<input type="text" name="tiga1" placeholder="tinggi">
+				<br/>
+				Hasil <input type="button" value=" = " onClick="iu()">
+				<input type="text" name="hasil" disabled="true">
+				<br/>
+				<br/>
+				<br/>
+				<h3>Volume Tabung = n x r x r</h3>
+				&nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" value="3.14" name="satu" disabled="disabled">
+				<input type="text" name="dua" placeholder="jari-jari">
+				<input type="text" name="tiga" placeholder="jari-jari">
+				<br/>
+				Hasil <input type="button" value=" = " onClick="iq()">
+				<input type="text" name="hasil1" disabled="true">
+				<br/>
+				<br/>
+				<br/>
+				<h3>Volume Kerucut = 1/3 x r x r x t</h3>
+				&nbsp &nbsp &nbsp &nbsp &nbsp <input type="text" value="0.33" name="satu2" disabled="disabled">
+				<input type="text" name="dua2" placeholder="jari-jari">
+				<input type="text" name="tiga2" placeholder="jari-jari">
+				<input type="text" name="empat" placeholder="tinggi">
+				<br/>
+				Hasil <input type="button" value=" = " onClick="ik()">
+				<input type="text" name="hasil2" disabled="true">
+				<br/>
+				<br/>
+				<br/>
+				</center>
+			</form>
+		</div>	</td>
+  </tr>
+  <tr>
+    <td colspan="2" id="footer-1" class="txt-footer-1">
+	  <div id="footer-1-container">Tugas Akhir</div> </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="footer-2" class="txt-footer-2">
+		<div id="footer-2-left">
+		Copyright &copy; Armi Roda. All rights reserved.<br />
+		Website Design Amazing Slide</div>
+		<div id="footer-2-right">
+		Terms of Use  |  Disclaimer  |  Privacy Policy </div>
+	</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Akhir</title>
+	<link href="css/css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" id="main">
+  <tr>
+    <td colspan="2" id="top"><a class="aa">WEB ARMI RODA</a></td>
+  </tr>
+  <tr>
+    <td colspan="2" id="top-2" class="txt-top-2"><div id="top-2-container"><a href="index.html">Home</a>  &nbsp;|&nbsp;  <a href="fitur.html">Fitur Web</a>  &nbsp;|&nbsp;  <a href="profil.html">Profil</a>  &nbsp;|&nbsp;  <a href="kontak.html">Kontak</a></div></td>
+  </tr>
+  <tr>
+    <td colspan="2" id="header">
+		<div id="header-container">
+		<img src="images/header.jpg" width="538x" height="280px" />		</div>
+		<div id="nav">
+			<div class="nav-item-1"><a href="kalkulator.html">KALKULATOR</a></div>
+			<div class="nav-item-1"><a href="galeri.html">GALERI</a></div>
+			<div class="nav-item-1"><a href="volume.html">VOLUME BANGUN RUANG</a></div>
+			<div class="nav-item-1"><a href="kasir.html">APLIKASI KASIR</a></div>
+		<div id="nav-filler-bottom"></div>
+		</div>	</td>
+  </tr>
+  <tr>
+    <td id="left-column">
+		<div id="left-column-container">
+			<script language = "JavaScript" type="text/JavaScript">
+<!--
+function warung()
+{
+    var catat = document.formwarung;
+    var hargasatujam = parseInt(catat.satu.value) * parseInt(catat.bakso.value);
+    var hargalimajam = parseInt(catat.lima.value) * parseInt(catat.soto.value);
+    var hargamie= parseInt(catat.mie.value) * parseInt(catat.mi.value);
+    var hargaes = parseInt(catat.es.value) * parseInt(catat.esaa.value);
+    var hargacampur= parseInt(catat.campur.value) * parseInt(catat.campuraa.value);
+    var hargasemua = hargasatujam + hargalimajam + hargamie+ hargaes + hargacampur;
+    if (hargasemua > 50000)
+    {
+        catat.TotalBayar.value = hargasemua;
+        catat.Diskon.value = 10000;
+        catat.JumlahBayar.value = hargasemua - parseInt(catat.Diskon.value);
+     }
+     else
+     {
+        catat.TotalBayar.value = hargasemua;
+        catat.Diskon.value = 0;
+        catat.JumlahBayar.value = hargasemua;
+    }   
+}
+function awal(){
+document.formwarung.reset();
+}
+//-->
+</script>
+</head>
+<body>
+<h2 align="center" class="style1">DAFTAR MENU-HARGA WARUNG WEB</h2>
+	<form name="formwarung" action="#">
+	<table border="1" align="center" style="width:589">
+		<tr bgcolor="#FFCC00">   
+			<th style="width:27" scope="col">No</th>
+			<th style="width:181" scope="col">Daftar Menu</th>
+			<th style="width:185" scope="col">Harga</th>
+			<th style="width:166" scope="col">Order</th>
+		</tr>
+		<tr>
+			<td style="text-align:center"><strong>1.</strong></td>
+			<td width="150px"><strong>Bakso Istimewa</strong></td>
+			<td><strong>@
+			<input type="text" name="satu" value="12000" size="20" disabled="disabled"/>
+			</strong></td>
+			<td><input name="bakso" type="text" onkeyup="warung()" value="0" size="20"/></td>
+		</tr>
+		<tr>
+			<td style="text-align:center"><strong>2.</strong></td>
+			<td><strong>Soto Spesial </strong></td>
+			<td><strong>@
+			<input type="text" name="lima" value="10000" size="20" disabled="disabled"/>
+			</strong></td>
+			<td><input name="soto" type="text" onkeyup="warung()" value="0" size="20"/></td>
+		</tr>
+		<tr>
+			<td style="text-align:center"><strong>3.</strong></td>
+			<td><strong>Mie Ayam Super </strong></td>
+			<td><strong>@
+			<input type="text" name="mie" value="15000" size="20" disabled="disabled"/>
+			</strong></td>
+			<td><input name="mi" type="text" onkeyup="warung()" value="0" size="20"/></td>
+		</tr>
+			<tr>
+			<td style="text-align:center"><strong>4.</strong></td>
+			<td><strong>Es Degan </strong></td>
+			<td><strong>@
+			<input type="text" name="es" value="5000" size="20" disabled="disabled"/>
+			</strong></td>
+			<td><input name="esaa" type="text" onkeyup="warung()" value="0" size="20"/></td>
+		</tr>
+		<tr>
+			<td style="text-align:center"><strong>5.</strong></td>
+			<td><strong>Es Campur</strong></td>
+			<td><strong>@
+			<input type="text" name="campur" value="8000" size="20" disabled="disabled"/>
+			</strong></td>
+			<td><input name="campuraa" type="text" onkeyup="warung()" value="0" size="20"/></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="text-align:center"><strong>Jumlah Total</strong></td>
+			<td><input name="TotalBayar" type="text" style="text-align:center" disabled="disabled" value="-" size="20"/></td>
+		</tr>
+		<tr>
+			<td colspan="3" style="text-align:center"><strong>Diskon*</strong></td>
+			<td><input name="Diskon" type="text" style="text-align:center" disabled="disabled" value="-" size="20"/></td>
+		</tr>
+		<tr style="background-color:#FF99FF">
+			<td colspan="3" style="text-align:center"><strong>Jumlah Bayar</strong></td>
+			<td><input name="JumlahBayar" type="text" style="text-align:center" disabled="disabled" value="-" size="20"/></td>
+		</tr>
+	</table>
+		<div style="position:absolute; width:166px; height:40px; left: 580px; top: 710px;">
+		<input type="button" value="B a t a l" onclick="awal()"/>
+		</div>
+		<br/>
+		<br/>
+		<p align="center"><span>* </span><span>: Menunjukkan Jumlah potongan dikarenakan Pemesanan telah melebihi Rp. 50.000,00. Potongan tidak berlaku kelipatan</span> <br/>
+		</p>
+	</form>
+</body>
+</html>
+		</div>	</td>
+  </tr>
+  <tr>
+    <td colspan="2" id="footer-1" class="txt-footer-1">
+	  <div id="footer-1-container">Tugas Akhir</div> </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="footer-2" class="txt-footer-2">
+		<div id="footer-2-left">
+		Copyright &copy; Armi Roda. All rights reserved.<br />
+		Website Design Amazing Slide</div>
+		<div id="footer-2-right">
+		Terms of Use  |  Disclaimer  |  Privacy Policy </div>
+	</td>
+  </tr>
+</table>
+</body>
+</html>
